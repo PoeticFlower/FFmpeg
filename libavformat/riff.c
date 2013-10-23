@@ -452,6 +452,11 @@ const AVCodecTag ff_codec_bmp_tags[] = {
     { AV_CODEC_ID_SCPR,         MKTAG('S', 'C', 'P', 'R') },
     { AV_CODEC_ID_CLEARVIDEO,   MKTAG('U', 'C', 'O', 'D') },
     { AV_CODEC_ID_AV1,          MKTAG('A', 'V', '0', '1') },
+
+    { AV_CODEC_ID_HEVC,         MKTAG('H', 'E', 'V', 'C') },
+    { AV_CODEC_ID_HEVC,         MKTAG('H', 'V', 'C', '1') },
+    { AV_CODEC_ID_HEVC,         MKTAG('H', 'M', '1', '0') },
+
     { AV_CODEC_ID_NONE,         0 }
 };
 
